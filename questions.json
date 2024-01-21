@@ -1,0 +1,646 @@
+{
+  "html": [
+    {
+      "id": 1,
+      "text": "Який тег використовується для створення посилання?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<link>", "isCorrect": false },
+        { "id": 2, "text": "<a>", "isCorrect": true },
+        { "id": 3, "text": "<href>", "isCorrect": false },
+        { "id": 4, "text": "<anchor>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Який тег використовується для вставки зображення?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<img>", "isCorrect": true },
+        { "id": 2, "text": "<picture>", "isCorrect": false },
+        { "id": 3, "text": "<media>", "isCorrect": false },
+        { "id": 4, "text": "<graphic>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Який тег знаходиться у <html> визначає заголовок документа?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<head>", "isCorrect": true },
+        { "id": 2, "text": "<header>", "isCorrect": false },
+        { "id": 3, "text": "<title>", "isCorrect": false },
+        { "id": 4, "text": "<meta>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Який атрибут використовується для визначення альтернативного тексту зображення?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "src", "isCorrect": false },
+        { "id": 2, "text": "alt", "isCorrect": true },
+        { "id": 3, "text": "title", "isCorrect": false },
+        { "id": 4, "text": "href", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Який атрибут дозволяє відкрити посилання у новій вкладці?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "target=_blank", "isCorrect": true },
+        { "id": 2, "text": "target=blank", "isCorrect": false },
+        { "id": 3, "text": "target=_self", "isCorrect": false },
+        { "id": 4, "text": "target=_new", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Для чого використовується атрибут 'placeholder'?",
+      "hasOptions": false,
+      "answer": "Атрибут 'placeholder' використовується для відображення текстової підказки або прикладу введення в поле форми до того, як користувач почне вводити дані."
+    },
+    {
+      "id": 7,
+      "text": "Як створити непронумерований список у HTML?",
+      "hasOptions": false,
+      "answer": "Для створення такого списку HTML використовується тег <code>ul</code>, а для визначення кожного пункту списку - тег <code>li</code>."
+    },
+    {
+      "id": 8,
+      "text": "Що таке HTML?",
+      "hasOptions": false,
+      "answer": "HTML (HyperText Markup Language) - це стандартизована мова розмітки, яка використовується для створення та розробки веб-сторінок. Це система для розмітки окремих частин веб-сторінки з використанням тегів, укладених у кутові дужки.."
+    },
+    {
+      "id": 9,
+      "text": "Що робить тег <!DOCTYPE>?",
+      "hasOptions": false,
+      "answer": "Це декларація, яка інформує веб-браузер про версію мови розмітки, яка була використана при створенні веб-сторінки. Це допомагає браузеру коректно відобразити сторінку."
+    },
+    {
+      "id": 10,
+      "text": "Який тег використовується для створення таблиці?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<table>", "isCorrect": true },
+        { "id": 2, "text": "<grid>", "isCorrect": false },
+        { "id": 3, "text": "<row>", "isCorrect": false },
+        { "id": 4, "text": "<column>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Який тег використовується для створення заголовка таблиці?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<caption>", "isCorrect": false },
+        { "id": 2, "text": "<th>", "isCorrect": false },
+        { "id": 3, "text": "<thead>", "isCorrect": true },
+        { "id": 4, "text": "<title>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Який тег використовується для створення рядка таблиці?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<td>", "isCorrect": false },
+        { "id": 2, "text": "<row>", "isCorrect": false },
+        { "id": 3, "text": "<line>", "isCorrect": false },
+        { "id": 4, "text": "<tr>", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Який тег використовується для створення осередку таблиці?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<cell>", "isCorrect": false },
+        { "id": 2, "text": "<tr>", "isCorrect": false },
+        { "id": 3, "text": "<th>", "isCorrect": false },
+        { "id": 4, "text": "<td>", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Що таке семантичні теги  в HTML?",
+      "hasOptions": false,
+      "answer": "Семантичні теги в HTML - це теги, які передають інформацію про зміст або призначення вмісту, а не тільки про його зовнішній вигляд. Приклади семантичних тегів: header, footer, article, section, nav та ін. Вони допомагають створювати більше структуровані та доступні веб-сторінки."
+    },
+    {
+      "id": 15,
+      "text": "Який атрибут використовується для встановлення фонового зображення?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "background", "isCorrect": false },
+        { "id": 2, "text": "background-color", "isCorrect": false },
+        { "id": 3, "text": "bgcolor", "isCorrect": false },
+        { "id": 4, "text": "background-image", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Який тег використовується для створення списку, що випадає?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<dropdown>", "isCorrect": false },
+        { "id": 2, "text": "<list>", "isCorrect": false },
+        { "id": 3, "text": "<select>", "isCorrect": true },
+        { "id": 4, "text": "<option>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "Який тег використовується для вставлення JavaScript коду в HTML документ?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<javascript>", "isCorrect": false },
+        { "id": 2, "text": "<script>", "isCorrect": true },
+        { "id": 3, "text": "<js>", "isCorrect": false },
+        { "id": 4, "text": "<java>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Який атрибут використовується для вказівки шляху до зображення?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "src", "isCorrect": true },
+        { "id": 2, "text": "href", "isCorrect": false },
+        { "id": 3, "text": "path", "isCorrect": false },
+        { "id": 4, "text": "url", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Що робить атрибут 'readonly' в елементі форми?",
+      "hasOptions": false,
+      "answer": "Атрибут 'readonly' робить елемент форми тільки для читання, що означає, що користувач не може змінювати значення елемента, але може переглядати його. Це може бути корисним, якщо ви хочете відобразити інформацію, яка не повинна бути змінена."
+    },
+    {
+      "id": 20,
+      "text": "Що таке веб-стандарти і навіщо вони потрібні?",
+      "hasOptions": false,
+      "answer": "Веб-стандарти - це рекомендації, розроблені групами стандартів, такими як W3C або WHATWG, для забезпечення сумісності та стійкості веб-технологій. Вони включають рекомендації щодо HTML, CSS, JavaScript та інших веб-технологій. Дотримання веб-стандартів допомагає забезпечити коректну роботу веб-сторінок у різних браузерах та пристроях, а також полегшити обслуговування та розширення веб-сайтів у майбутньому."
+    },
+    {
+      "id": 21,
+      "text": "Що таке чуйний (responsive) веб-дизайн?",
+      "hasOptions": false,
+      "answer": "Веб-стандарти - це рекомендації, розроблені групами стандартів, такими як W3C або WHATWG, для забезпечення сумісності та стійкості веб-технологій. Вони включають рекомендації щодо HTML, CSS, JavaScript та інших веб-технологій. Дотримання веб-стандартів допомагає забезпечити коректну роботу веб-сторінок у різних браузерах та пристроях, а також полегшити обслуговування та розширення веб-сайтів у майбутньому."
+    },
+    {
+      "id": 22,
+      "text": "Який HTML тег використовується для вставки відео?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<media>", "isCorrect": false },
+        { "id": 2, "text": "<video>", "isCorrect": true },
+        { "id": 3, "text": "<movie>", "isCorrect": false },
+        { "id": 4, "text": "<multimedia>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 23,
+      "text": "Який тег використовується для створення головного заголовка на веб-сторінці?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<h1>", "isCorrect": true },
+        { "id": 2, "text": "<header>", "isCorrect": false },
+        { "id": 3, "text": "<title>", "isCorrect": false },
+        { "id": 4, "text": "<head>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 24,
+      "text": "Що робить тег <br>?",
+      "hasOptions": false,
+      "answer": "Він використовується для перенесення рядка, що дозволяє створити новий рядок у тому місці, де він розміщений. Це зручний спосіб керування розташуванням тексту на веб-сторінці без використання додаткових стилів або елементів."
+    },
+    {
+      "id": 25,
+      "text": "Який тег використовується для створення впорядкованого списку?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<ul>", "isCorrect": false },
+        { "id": 2, "text": "<ol>", "isCorrect": true },
+        { "id": 3, "text": "<li>", "isCorrect": false },
+        { "id": 4, "text": "<list>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 26,
+      "text": "Що таке DOM у контексті веб-розробки?",
+      "hasOptions": false,
+      "answer": "DOM (Document Object Model) - це програмний інтерфейс для веб-документів. Це представлення структурованого документа у вигляді об'єктної моделі, що дозволяє програмам та скриптам взаємодіяти з вмістом, структурою та стилями веб-сторінки. DOM представляє документ як дерево об'єктів, кожен з яких відповідає частині сторінки."
+    },
+    {
+      "id": 27,
+      "text": "Який атрибут використовується для визначення стилів елемента на сторінці?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "style", "isCorrect": true },
+        { "id": 2, "text": "css", "isCorrect": false },
+        { "id": 3, "text": "styles", "isCorrect": false },
+        { "id": 4, "text": "stylesheet", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 28,
+      "text": "Що таке атрибут 'alt' в теге <img>?",
+      "hasOptions": false,
+      "answer": "Він використовується для надання альтернативного тексту, який відображатиметься у випадку, якщо зображення не може бути завантажене. Це також може бути корисним для забезпечення доступності, оскільки скрін-рідери можуть використовувати цей текст для опису зображення користувачам з обмеженими можливостями."
+    }
+  ],
+  "css": [
+    {
+      "id": 1,
+      "text": "У чому різниця між «скиданням» та «нормалізацією» CSS? Що б ви обрали і чому?",
+      "hasOptions": false,
+      "answer": "Скидання (reset) скидає всі вбудовані в браузер стилі елементів. Normalize наводить стилі до єдиного вигляду у всіх браузерах. Краще використовувати Normalize через кросбраузерність."
+    },
+    {
+      "id": 3,
+      "text": "Що таке CSS?",
+      "hasOptions": false,
+      "answer": "CSS (Cascading Style Sheets) - це мова стилів, що використовується для опису зовнішнього вигляду та форматування документа, написаного мовою розмітки, такою як HTML. CSS дозволяє розробникам керувати макетом, шрифтами, кольорами та іншими стилістичними аспектами веб-сторінки."
+    },
+    {
+      "id": 4,
+      "text": "Чому, як правило, краще розмістити підключення CSS у <head>, а <script> перед тегом </body>? Чи знаєте ви якісь винятки, наведіть приклади?",
+      "hasOptions": false,
+      "answer": "Стилі рекомендується підключати в head для того, щоб сторінка якнайшвидше прийняла свій зовнішній вигляд. Скрипти, підключені в head, можуть загальмувати цей процес, у зв'язку з цим їх рекомендується підключати перед закриваючим тегом body. Винятком є ​​скрипти аналітики для визначення кількості відвідувачів, які не дочекалися завантаження сторінки. У цьому випадку скрипт повинен бути підключений до head."
+    },
+    {
+      "id": 5,
+      "text": "Що робить властивість 'z-index' у CSS?",
+      "hasOptions": false,
+      "answer": "Властивість 'z-index' CSS контролює стековий порядок елементів по осі Z. Елемент з великим значенням 'z-index' буде відображатися поверх елемента з меншим значенням 'z-index'."
+    },
+    {
+      "id": 6,
+      "text": "Які є способи відцентрувати div?",
+      "hasOptions": false,
+      "answer": "Існує кілька способів відцентрувати div у CSS, ось деякі з них: \n1. Використання властивостей margin та auto: `margin: 0 auto;`.\n2. Використання Flexbox: `display: flex; justify-content: center; align-items: center;`.\n3. Використання Grid Layout: `display: grid; place-items: center;`.\n4. Використання властивостей text-align та inline-block: `text-align: center;` на батьківському елементі та `display: inline-block;` на самому div`."
+    },
+    {
+      "id": 7,
+      "text": "Яка властивість використовується для встановлення кольору фону?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "color", "isCorrect": false },
+        { "id": 2, "text": "background-color", "isCorrect": true },
+        { "id": 3, "text": "bgcolor", "isCorrect": false },
+        { "id": 4, "text": "background", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Яка властивість дозволяє встановити зовнішні відступи елемента?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "padding", "isCorrect": false },
+        { "id": 2, "text": "border", "isCorrect": false },
+        { "id": 3, "text": "margin", "isCorrect": true },
+        { "id": 4, "text": "spacing", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Яка властивість використовується для встановлення шрифту?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "font-weight", "isCorrect": false },
+        { "id": 2, "text": "font-style", "isCorrect": false },
+        { "id": 3, "text": "text-font", "isCorrect": false },
+        { "id": 4, "text": "font-family", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Яка властивість CSS дозволяє контролювати видимість елемента в DOM, але при цьому зберігає його місце?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "display: none", "isCorrect": false },
+        { "id": 2, "text": "visibility: hidden", "isCorrect": true },
+        { "id": 3, "text": "is-visible: 0", "isCorrect": false },
+        { "id": 4, "text": "color: transparent", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Яка властивість CSS використовується для встановлення тіней елементів?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "box-shadow", "isCorrect": true },
+        { "id": 2, "text": "text-shadow", "isCorrect": false },
+        { "id": 3, "text": "shadow", "isCorrect": false },
+        { "id": 4, "text": "border-shadow", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Який селектор вибирає всі елементи .child, які є безпосередніми дочірніми елементами .parent?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": ".parent + .child", "isCorrect": false },
+        { "id": 2, "text": ".parent ~ .child", "isCorrect": false },
+        { "id": 3, "text": ".parent > .child", "isCorrect": true },
+        { "id": 4, "text": ".parent .child", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Який селектор CSS вибирає всі елементи, які мають вказаний атрибут, що починається з певного рядка?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "[attr=value]", "isCorrect": false },
+        { "id": 2, "text": "[attr~=value]", "isCorrect": false },
+        { "id": 3, "text": "[attr|=value]", "isCorrect": false },
+        { "id": 4, "text": "[attr^=value]", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Який селектор CSS вибирає всі елементи, які мають вказаний атрибут, що закінчується певним рядком?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "[attr=value]", "isCorrect": false },
+        { "id": 2, "text": "[attr~=value]", "isCorrect": false },
+        { "id": 3, "text": "[attr|=value]", "isCorrect": false },
+        { "id": 4, "text": "[attr$=value]", "isCorrect": true }
+      ]
+    }
+  ],
+  "javascript": [
+    {
+      "id": 1,
+      "text": "Що таке чиста функція?",
+      "hasOptions": false,
+      "answer": "Це функція, яка повертає однаковий результат, коли викликається з тим самим набором аргументів, а також не має побічних ефектів (side effects)"
+    },
+    {
+      "id": 2,
+      "text": "Що таке замикання?",
+      "hasOptions": false,
+      "answer": "Замикання - це здатність функції запам'ятовувати лексичне оточення, в якому вона була створена, тобто зберігати в собі посилання на це оточення і звертатися до нього.\n\n<a href='https://youtu.be/mI6Jcfsgma4?si=46DV3mXPF6mDTTPs' target='_blank'>Докладніше відео про замикання</a>"
+    },
+    {
+      "id": 3,
+      "text": "let VS const: чому краще використовувати const, коли це можливо?",
+      "hasOptions": false,
+      "answer": "Використання const дає дві переваги:\n1) Безпека: оголошення змінних через const захищає від несподіваної зміни значення змінної в коді, що може часто приводить до помилок і несподіваної поведінки програми.\n2) Читання: використання const дозволяє читачеві коду розуміти, що значення змінної не буде змінюватися протягом виконання програми, що робить код більш зрозумілим і зменшує можливість помилок.\n\nПодробнее: <a href='https://youtu.be/07FllcTRj84?si=q7v60ZvHYBoRSSen' target=' _blank'>Відео про VAR/LET/CONST</a>"
+    },
+    {
+      "id": 4,
+      "text": "Що таке проміси (Promises) в JavaScript?",
+      "hasOptions": false,
+      "answer": "Проміси – це об'єкти, які є результатом асинхронної операції. Вони можуть бути в одному з трьох станів: очікування (pending), виконане (fulfilled) або відхилено (rejected)."
+    },
+    {
+      "id": 5,
+      "text": "Що таке деструктуризація в JavaScript?",
+      "hasOptions": false,
+      "answer": "Деструктуризація дозволяє витягувати окремі властивості з об'єктів або елементи з масивів і надавати їх змінним більш зручній формі. Наприклад, ось так ми можемо одним рядком отримати ім'я та адресу користувача з об'єкта user:\n<code>const {name, address} = user;</code>"
+    },
+    {
+      "id": 6,
+      "text": "Що таке стрілочні функції в JavaScript?",
+      "hasOptions": false,
+      "answer": "Стрілецькі функції - це синтаксично компактний спосіб запису функцій JavaScript, який не має свого власного 'this'. Вони часто використовуються для створення анонімних функційв.\n\n<a href='https://youtu.be/nGVYdna4kq4?si=1k0J9F-MYxWCaq6M' target='_blank'>Детальне відео про функції в JS</a>"
+    },
+    {
+      "id": 7,
+      "text": "Що таке hoisting в JavaScript?",
+      "hasOptions": false,
+      "answer": "Hoisting — це механізм JavaScript, при якому змінні та оголошення функцій переміщаються на верх своєї області видимості перед виконанням коду."
+    },
+    {
+      "id": 8,
+      "text": "Який метод використовується для додавання елемента в масив?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "splice()", "isCorrect": false },
+        { "id": 2, "text": "pop()", "isCorrect": false },
+        { "id": 3, "text": "shift()", "isCorrect": false },
+        { "id": 4, "text": "push()", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Який об'єкт представляє поточне вікно браузера?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "document", "isCorrect": false },
+        { "id": 2, "text": "screen", "isCorrect": false },
+        { "id": 3, "text": "window", "isCorrect": true },
+        { "id": 4, "text": "browser", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Який оператор використовується для порівняння на строгу рівність?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "==", "isCorrect": false },
+        { "id": 2, "text": "===", "isCorrect": true },
+        { "id": 3, "text": "=", "isCorrect": false },
+        { "id": 4, "text": "!==", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Який метод використовується для видалення останнього елемента з масиву?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "splice()", "isCorrect": false },
+        { "id": 2, "text": "pop()", "isCorrect": true },
+        { "id": 3, "text": "shift()", "isCorrect": false },
+        { "id": 4, "text": "push()", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Який метод JavaScript використовується для перетворення об'єкта в рядок JSON?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "JSON.stringify()", "isCorrect": true },
+        { "id": 2, "text": "JSON.parse()", "isCorrect": false },
+        { "id": 3, "text": "JSON.toText()", "isCorrect": false },
+        { "id": 4, "text": "JSON.toString()", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Який об'єкт у JavaScript використовується для роботи з датою та часом?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "Time", "isCorrect": false },
+        { "id": 2, "text": "Date", "isCorrect": true },
+        { "id": 3, "text": "Calendar", "isCorrect": false },
+        { "id": 4, "text": "DateTime", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Який метод масиву в JavaScript використовується для фільтрації елементів за певним критерієм?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "map()", "isCorrect": false },
+        { "id": 2, "text": "filter()", "isCorrect": true },
+        { "id": 3, "text": "reduce()", "isCorrect": false },
+        { "id": 4, "text": "forEach()", "isCorrect": false }
+      ]
+    }
+  ],
+  "react": [
+    {
+      "id": 1,
+      "text": "Що таке React JS?",
+      "hasOptions": false,
+      "answer": "React JS, або просто React, це відкрита бібліотека JavaScript для створення інтерфейсів користувача,особливо для односторонніх додатків (SPA). Ключові особливості React:\n1) Компонентний підхід: React будується на концепції компонентів,що дозволяє розробникам створювати шматки коду, що легко використовуються;\n2)Віртуальний DOM: React використовує віртуальний DOM для відстеження змін. Це абстракція реального DOM, що дозволяє бібліотеці оновлювати лише ті частини інтерфейсу,які дійсно змінилися, замість повного перерендерінгу сторінки. Це робить React відносно швидким;\n3) Хуки: Введення хуків дозволило використовувати стан та інші можливостікласових компонентів у функціональних компонентах, що зробило код коротшим і чистішим;\n4) Співтовариство та екосистема: React має велику та активну спільноту розробників, а також багато бібліотек та інструментів, створених спільнотою, що полегшує розробку складних програм.\n\nДетальніше: <a href='https://youtu.be/R_39q-vdOaE?si=mEKDaYDjEdnojG-N' target='_blank'>Вступ в React (відео)</a>"
+    },
+    {
+      "id": 2,
+      "text": "Для чого потрібний атрибут key при рендері списків?",
+      "hasOptions": false,
+      "answer": "Ключі (keys) допомагають React визначати, які елементи було змінено, додано чи видалено. Їх необхідно вказувати, щоб React міг зіставляти елементи масиву з часом. Найкращий спосіб вибрати ключ - це використовувати рядок, який явно відрізнятиме елемент списку від його сусідів. Найкраще ви будете використовувати ID з ваших даних як ключі. Індекси масиву теж можна використовувати для цього, але тільки якщо елементи масиву не додаються на початок, не переставляються і не видаляються."
+    },
+    {
+      "id": 3,
+      "text": "Як працює проп children?",
+      "hasOptions": false,
+      "answer": "Деякі компоненти не знають своїх нащадків наперед. Це особливо характерно для таких компонентів, як Sidebar або Dialog, які являють собою як би «коробку», в яку можна щось покласти. Для таких компонентів можна використовувати спеціальний проп children, який передасть дочірні елементи одразу на висновок. -as-children' target='_blank'>Документація React (eng)</a>"
+    },
+    {
+      "id": 4,
+      "text": "Що таке портали в React?",
+      "hasOptions": false,
+      "answer": "Портали дозволяють рендерувати дочірні елементи в DOM-вузол, що знаходиться поза DOM-ієрархією батьківського компонента. Типовий випадок застосування порталів – коли в батьківському компоненті задані стилі overflow: hidden або z-index, але вам потрібно, щоб дочірній елемент візуально виходив за межі свого контейнера. Найчастіше це діалогові вікна, спливаючі картки і підказки."
+    },
+    {
+      "id": 5,
+      "text": "Що таке Reconciliation (Звірка)?",
+      "hasOptions": false,
+      "answer": "Це процес, за допомогою якого React оновлює DOM. Коли стан компонента змінюється, React має розрахувати необхідність оновлення DOM. Це робиться шляхом створення віртуального DOM та порівняння його з поточним DOM. У цьому контексті віртуальний DOM міститиме новий стан компонента."
+    },
+    {
+      "id": 6,
+      "text": "Для чого використовується хук useEffect в React?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Зберігання стану компонента",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Виконання побічних ефектів",
+          "isCorrect": true
+        },
+        { "id": 3, "text": "Мемоізації значень", "isCorrect": false },
+        {
+          "id": 4,
+          "text": "Створення посилань на елементи DOM",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Що буде, якщо другим аргументом в useEffect передати порожній масив []?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "Помилка", "isCorrect": false },
+        {
+          "id": 2,
+          "text": "useEffect буде запущено 0 разів",
+          "isCorrect": false
+        },
+        { "id": 3, "text": "useEffect буде запущено 1 раз", "isCorrect": true },
+        { "id": 4, "text": "Немає правильної відповіді", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Який хук використовується для створення стану у компоненті?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "useEffect", "isCorrect": false },
+        { "id": 2, "text": "useState", "isCorrect": true },
+        { "id": 3, "text": "useContext", "isCorrect": false },
+        { "id": 4, "text": "useReducer", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Який елемент використовується для групування елементів без додавання додаткових вузлів DOM?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "<Group>", "isCorrect": false },
+        { "id": 2, "text": "<Div>", "isCorrect": false },
+        { "id": 3, "text": "<Fragment> (<>)", "isCorrect": true },
+        { "id": 4, "text": "<List>", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "У нас є масив з рядками (arr), кожен з яких хочемо відобразити на сторінці. Який метод масиву потрібно застосувати до return компонента?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "{arr.forEach(...)}", "isCorrect": false },
+        { "id": 2, "text": "{arr.filter(...)}", "isCorrect": false },
+        { "id": 3, "text": "{arr.for(...)}", "isCorrect": false },
+        { "id": 4, "text": "{arr.map(...)}", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Який елемент використовується для обробки помилок у дереві компонентів?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "ErrorBoundary", "isCorrect": true },
+        { "id": 2, "text": "CatchError", "isCorrect": false },
+        { "id": 3, "text": "ErrorWrapper", "isCorrect": false },
+        { "id": 4, "text": "ErrorCatcher", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Який (які) аргумент(и) приймає хук useMemo?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "Функцію та масив залежностей", "isCorrect": true },
+        { "id": 2, "text": "Функцію та об'єкт опцій", "isCorrect": false },
+        { "id": 3, "text": "Функцію", "isCorrect": false },
+        { "id": 4, "text": "Масив залежностей", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Для чого використовується хук useCallback в React?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Створення посилань на елементи DOM",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Зберігання стану компонента",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Виконання побічних ефектів",
+          "isCorrect": false
+        },
+        { "id": 4, "text": "Мемоізації функцій", "isCorrect": true }
+      ]
+    }
+  ]
+}

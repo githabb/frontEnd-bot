@@ -1,0 +1,10 @@
+Use this token to access the HTTP API:
+6936336016:AAHxontUEjIAYn1XM6CNUHOdOMR0LrXs2hw
+Keep your token secure and store it safely, it can be used by anyone to control your bot.
+
+
+
+
+Frontend Bot
+
+FrontendJuniorBot
